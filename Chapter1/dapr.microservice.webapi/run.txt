@@ -1,0 +1,10 @@
+C:\Work\Code\Git\Repos\dapr-1\Chapter1\dapr.microservice.webapi\dapr.microservice.webapi
+dapr run --app-id hello-world --app-port 5151 --dapr-http-port 5040 dotnet run
+
+localhost:5010/v1.0/invoke/hello-world/method/hello
+
+Visual Studio debugging:
+Install Dapr-sidekick
+https://github.com/man-group/dapr-sidekick-dotnet
+
+
